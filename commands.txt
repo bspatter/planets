@@ -5,3 +5,4 @@ git status
 
 
 HEAD refers to the most recent version of your code
+git config pager.diff false # stop git diff from opening in an editor (print in terminal stdout)
