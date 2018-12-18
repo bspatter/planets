@@ -5,3 +5,8 @@ git status
 
 HEAD refers to the most recent version of your code
 git config --global core.pager cat # have git avoid using an editor to print things (use stdout instead)
+git diff HEAD mars.txt # look at current version vs most recent version (head) for the file mars.txt. This is a more specific version of just git diff.
+git diff HEAD~2 mars.txt # look at current version vs the version 2 commits back.
+git diff a241907 mars.txt # compare current version to version to version with key starting with a241907. Its worth noting that you dont need the whole hex key here, just enough to be unique compared to other commits.
+git checkout HEAD mars.txt # restores version to that stored in HEAD
+git checkout a241907 mars.txt # restores version to that stored in checkout with key starting with a241907
