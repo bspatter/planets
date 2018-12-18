@@ -3,6 +3,5 @@ git config --global --unset user.example # remove user.example from config file
 git status
 
 
-
 HEAD refers to the most recent version of your code
-git config pager.diff false # stop git diff from opening in an editor (print in terminal stdout)
+git config --global core.pager cat # have git avoid using an editor to print things (use stdout instead)
