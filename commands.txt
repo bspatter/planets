@@ -1,0 +1,3 @@
+git config --global core.editor "emacs"
+git config --global --unset user.example # remove user.example from config file
+git status
